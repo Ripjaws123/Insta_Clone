@@ -1,6 +1,6 @@
-export const USER_API = "http://localhost:5001/user";
-export const POST_API = "http://localhost:5001/post";
-export const MESSAGE_API = "http://localhost:5001/message";
+export const USER_API = "https://instaconnect-7g68.onrender.com/user";
+export const POST_API = "https://instaconnect-7g68.onrender.com/post";
+export const MESSAGE_API = "https://instaconnect-7g68.onrender.com/message";
 
 export const readFileDatauri = (file) => {
     return new Promise((resolve, reject) => {

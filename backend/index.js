@@ -13,7 +13,7 @@ import path from 'path'
 // middleware
 app.use(express.json());
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: process.env.URL,
   credentials: true,
   httpOnly: true,
 };
